@@ -11,7 +11,7 @@ jobs: # Trabajo en accion que va a realizar la automatizacion
       - name: configurar python 
         uses: actions/setup-python@v5 #Instala python en la maquina de github, corre en github
         with: 
-          python-version: '3.12'
+          python-version: '3.12' 
 
       - name: Ejecutar codigo #corre en la maquina 
         run: python ejemplo.py # Ejecuta en la terminal de la maquina de github 
